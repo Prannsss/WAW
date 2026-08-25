@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What-a-Wash! - Premium Laundry Service</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header>
+        <nav>
+            <a href="index.html" class="logo">
+                <img src="favicon.ico" alt="What-a-Wash!" class="logo-icon-img">
+                What-a-Wash!
+            </a>
+            <ul class="nav-links">
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="legal.html">Legal</a></li>
+                <li><a href="#contact" class="nav-cta">Book Pick-Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section inspired by CleanPro layout -->
+    <section class="hero">
+        <!-- Floating JS Background Materials -->
+        <div id="hero-floating-materials" class="hero-floating-bg"></div>
+        <div class="hero-container">
+            <div class="hero-text">
+                <p class="hero-sub">Effortless to keep your wardrobe flawless.</p>
+                <h1 class="hero-title">Innovating <span>the Way You Care for Clothes</span></h1>
+                <div class="hero-actions">
+                    <a href="#contact" class="btn-primary">
+                        Schedule Pick-Up
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                    </a>
+                    <a href="#services" class="btn-secondary">Explore Services</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="shirt-wrapper">
+                    <img src="public/shirt.svg" alt="What-a-Wash Pristine Shirt" class="shirt-img">
+                    <div class="trust-badge">
+                        <div class="avatar-group">
+                            <div class="avatar" style="background-image: url('https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=100&q=80')"></div>
+                            <div class="avatar" style="background-image: url('https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=100&q=80')"></div>
+                            <div class="avatar avatar-count">5k+</div>
+                        </div>
+                        <span style="font-size: 0.85rem; font-weight: 600; color: #1e293b;">Happy Customers</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="section-header">
+            <span class="tag">Our Services</span>
+            <h2>Tailored Laundry Care</h2>
+        </div>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                </div>
+                <h3>Self-Service Wash</h3>
+                <p>State-of-the-art washers and dryers for quick, convenient, and affordable independent washing.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path></svg>
+                </div>
+                <h3>Drop-off & Fold</h3>
+                <p>Leave your laundry with our expert staff and pick it up perfectly washed, dried, and neatly folded.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="3" width="15" height="13"></rect><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon><circle cx="5.5" cy="18.5" r="2.5"></circle><circle cx="18.5" cy="18.5" r="2.5"></circle></svg>
+                </div>
+                <h3>Pick-Up & Delivery</h3>
+                <p>Doorstep laundry service designed for busy schedules. Schedule online and we handle the rest.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.38 3.46L16 2a4 4 0 0 0-8 0L3.62 3.46a2 2 0 0 0-1.34 2.23l.58 3.47a1 1 0 0 0 .99.84H6v10c0 1.1.9 2 2 2h8a2 2 0 0 0 2-2V10h2.15a1 1 0 0 0 .99-.84l.58-3.47a2 2 0 0 0-1.34-2.23z"/></svg>
+                </div>
+                <h3>Specialty Care</h3>
+                <p>Delicate garments, suit steam presses, and premium treatment for high-end fabrics.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about-section">
+        <div class="about-container">
+            <div class="about-content">
+                <span class="tag">About Us</span>
+                <h2>Redefining Cleanliness with Elegance & Speed</h2>
+                <p>At <strong>What-a-Wash!</strong>, we believe caring for your wardrobe shouldn't be a chore. We combine modern technology, eco-friendly detergents, and supreme customer care to give your garments the fresh, pristine standard they deserve.</p>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-number">99.8%</div>
+                        <div class="stat-label">On-Time Delivery</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Fabric Protection</div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-visual">
+                <h3>Clean Clothes, Zero Hassle.</h3>
+                <p>Experience the ultimate laundry solution tailored to modern lifestyle needs.</p>
+                <a href="#contact" style="color: white; font-weight: 600; text-decoration: underline;">Schedule your wash today &rarr;</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="contact-container">
+            <div class="contact-info">
+                <h2>Get in Touch</h2>
+                <p>Have questions about our pricing or service areas? Reach out to our customer care team.</p>
+                <div class="contact-detail">
+                    <div class="contact-detail-icon">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                    </div>
+                    <span>+63 (02) 8888-WASH</span>
+                </div>
+                <div class="contact-detail">
+                    <div class="contact-detail-icon">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                    </div>
+                    <span>support@whatawash.com</span>
+                </div>
+                <div class="contact-detail">
+                    <div class="contact-detail-icon">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                    </div>
+                    <span>123 Clean Street, Metro Hub</span>
+                </div>
+            </div>
+            <form class="contact-form" onsubmit="event.preventDefault(); alert('Thank you for contacting What-a-Wash!');">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Your Message or Special Pickup Request..." required></textarea>
+                </div>
+        <button type="submit" class="btn-submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">
+                    <img src="favicon.ico" alt="What-a-Wash!" class="logo-icon-img">
+                    What-a-Wash!
+                </a>
+                <p>Innovative, crisp, and reliable laundry care for modern living. Keep your wardrobe flawless effortlessly.</p>
+            </div>
+            <div class="footer-column">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="legal.html">Legal</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="#services">Self-Service Wash</a></li>
+                    <li><a href="#services">Drop-off & Fold</a></li>
+                    <li><a href="#services">Pick-Up & Delivery</a></li>
+                    <li><a href="#services">Specialty Care</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Legal & Policies</h4>
+                <ul>
+                    <li><a href="legal.html#tos-1">Terms of Service</a></li>
+                    <li><a href="legal.html#privacy-1">Privacy Policy</a></li>
+                    <li><a href="legal.html#privacy-3">RA 10173 Compliance</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 What-a-Wash! Laundry Services. All rights reserved.</p>
+            <p>Designed with simplicity & elegance.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling JS logic with offset calculation for the fixed header
+        function scrollToTarget(targetId) {
+            if (!targetId || targetId === '#') return;
+            const targetElement = document.querySelector(targetId);
+            if (targetElement) {
+                const headerOffset = 80; // height of fixed navigation header
+                const elementPosition = targetElement.getBoundingClientRect().top;
+                const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+                window.scrollTo({
+                    top: offsetPosition,
+                    behavior: 'smooth'
+                });
+            }
+        }
+
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                const targetId = this.getAttribute('href');
+                if (targetId && targetId !== '#') {
+                    e.preventDefault();
+                    scrollToTarget(targetId);
+                }
+            });
+        });
+
+        // Smooth scroll to top when clicking the What-a-Wash! header logo on landing page
+        document.querySelectorAll('header .logo').forEach(logoBtn => {
+            logoBtn.addEventListener('click', function(e) {
+                e.preventDefault();
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+                if (window.location.hash) {
+                    history.pushState("", document.title, window.location.pathname + window.location.search);
+                }
+            });
+        });
+
+        // Floating Background Materials Animation Engine (Wordless Orbs & Bubbles)
+        (function initFloatingMaterials() {
+            const container = document.getElementById('hero-floating-materials');
+            const heroSection = document.querySelector('.hero');
+            if (!container || !heroSection) return;
+
+            const materials = [];
+            const count = 24;
+            let width = heroSection.offsetWidth;
+            let height = heroSection.offsetHeight;
+
+            let mouseX = width / 2;
+            let mouseY = height / 2;
+            let targetMouseX = width / 2;
+            let targetMouseY = height / 2;
+
+            window.addEventListener('resize', () => {
+                width = heroSection.offsetWidth;
+                height = heroSection.offsetHeight;
+            });
+
+            heroSection.addEventListener('mousemove', (e) => {
+                const rect = heroSection.getBoundingClientRect();
+                targetMouseX = e.clientX - rect.left;
+                targetMouseY = e.clientY - rect.top;
+            });
+
+            heroSection.addEventListener('click', (e) => {
+                const rect = heroSection.getBoundingClientRect();
+                const clickX = e.clientX - rect.left;
+                const clickY = e.clientY - rect.top;
+
+                for (let i = 0; i < 7; i++) {
+                    spawnClickParticle(clickX, clickY);
+                }
+            });
+
+            function spawnClickParticle(cx, cy) {
+                const p = document.createElement('div');
+                p.className = 'js-material js-bubble-orb';
+                const size = Math.random() * 26 + 10;
+                p.style.width = `${size}px`;
+                p.style.height = `${size}px`;
+                p.style.left = '0px';
+                p.style.top = '0px';
+                container.appendChild(p);
+
+                let px = cx + (Math.random() - 0.5) * 30;
+                let py = cy + (Math.random() - 0.5) * 30;
+                let vx = (Math.random() - 0.5) * 3;
+                let vy = -Math.random() * 2.5 - 1.5;
+                let opacity = 0.95;
+                let scale = 0.5;
+
+                function animateClickParticle() {
+                    px += vx;
+                    py += vy;
+                    opacity -= 0.018;
+                    scale += 0.015;
+                    p.style.transform = `translate3d(${px}px, ${py}px, 0) scale(${scale})`;
+                    p.style.opacity = Math.max(0, opacity);
+
+                    if (opacity > 0) {
+                        requestAnimationFrame(animateClickParticle);
+                    } else {
+                        p.remove();
+                    }
+                }
+                requestAnimationFrame(animateClickParticle);
+            }
+
+            for (let i = 0; i < count; i++) {
+                const el = document.createElement('div');
+                el.className = 'js-material';
+                
+                if (i % 3 === 0) {
+                    el.classList.add('js-particle-spark');
+                    const sparkSize = Math.floor(Math.random() * 10 + 6);
+                    el.style.width = `${sparkSize}px`;
+                    el.style.height = `${sparkSize}px`;
+                } else {
+                    el.classList.add('js-bubble-orb');
+                    const orbSize = Math.floor(Math.random() * 42 + 14);
+                    el.style.width = `${orbSize}px`;
+                    el.style.height = `${orbSize}px`;
+                }
+
+                container.appendChild(el);
+
+                const x = Math.random() * width;
+                const y = Math.random() * height;
+                const vx = (Math.random() - 0.5) * 0.45;
+                const vy = (Math.random() - 0.5) * 0.45;
+                const floatSpeed = Math.random() * 0.0025 + 0.0012;
+                const floatAmp = Math.random() * 22 + 12;
+                const parallaxFactor = (Math.random() - 0.5) * 0.08;
+                const phase = Math.random() * Math.PI * 2;
+
+                materials.push({
+                    el,
+                    x,
+                    y,
+                    vx,
+                    vy,
+                    floatSpeed,
+                    floatAmp,
+                    parallaxFactor,
+                    phase
+                });
+            }
+
+            function animate() {
+                mouseX += (targetMouseX - mouseX) * 0.05;
+                mouseY += (targetMouseY - mouseY) * 0.05;
+
+                materials.forEach(m => {
+                    m.phase += m.floatSpeed;
+                    const offsetY = Math.sin(m.phase) * m.floatAmp;
+                    const offsetX = Math.cos(m.phase * 0.8) * (m.floatAmp * 0.5);
+
+                    const parallaxX = (mouseX - width / 2) * m.parallaxFactor;
+                    const parallaxY = (mouseY - height / 2) * m.parallaxFactor;
+
+                    m.x += m.vx;
+                    m.y += m.vy;
+
+                    if (m.x < -120) m.x = width + 60;
+                    if (m.x > width + 120) m.x = -60;
+                    if (m.y < -60) m.y = height + 60;
+                    if (m.y > height + 60) m.y = -60;
+
+                    const finalX = m.x + offsetX + parallaxX;
+                    const finalY = m.y + offsetY + parallaxY;
+
+                    m.el.style.transform = `translate3d(${finalX}px, ${finalY}px, 0)`;
+                });
+
+                requestAnimationFrame(animate);
+            }
+
+            requestAnimationFrame(animate);
+        })();
+    </script>
+</body>
+</html>
